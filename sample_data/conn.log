@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator \,
+#empty_field (empty)
+#unset_field -
+#path conn
+#open 2026-10-13-00-00-00
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	local_resp	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	bool	count	string	count	count	count	count	set[string]
+1791849600.000001	C_demo001	192.0.2.10	51001	198.51.100.20	80	tcp	http	0.04	400	1200	SF	F	F	0	ShADadFf	5	680	6	1450	(empty)
+1791849600.100001	C_demo002	192.0.2.10	51002	198.51.100.20	81	tcp	-	0.01	70	0	S0	F	F	0	S	1	110	0	0	(empty)
+1791849600.200001	C_demo003	192.0.2.10	51003	198.51.100.20	82	tcp	-	0.01	70	0	S0	F	F	0	S	1	110	0	0	(empty)
+1791849600.300001	C_demo004	192.0.2.10	51004	198.51.100.20	83	tcp	-	0.01	70	0	S0	F	F	0	S	1	110	0	0	(empty)
+1791849600.400001	C_demo005	192.0.2.10	51005	198.51.100.20	84	tcp	-	0.01	70	0	S0	F	F	0	S	1	110	0	0	(empty)
+1791849600.500001	C_demo006	192.0.2.10	51006	198.51.100.20	85	tcp	-	0.01	70	0	S0	F	F	0	S	1	110	0	0	(empty)
+1791849600.600001	C_demo007	192.0.2.10	51007	198.51.100.20	86	tcp	-	0.01	70	0	S0	F	F	0	S	1	110	0	0	(empty)
+1791849600.700001	C_demo008	192.0.2.10	51008	198.51.100.20	87	tcp	-	0.01	70	0	S0	F	F	0	S	1	110	0	0	(empty)
+1791849600.800001	C_demo009	192.0.2.10	51009	198.51.100.20	88	tcp	-	0.01	70	0	S0	F	F	0	S	1	110	0	0	(empty)
+1791849600.900001	C_demo010	192.0.2.10	51010	198.51.100.20	89	tcp	-	0.01	70	0	S0	F	F	0	S	1	110	0	0	(empty)
+1791849601.000001	C_demo011	192.0.2.10	51011	198.51.100.20	90	tcp	-	0.01	70	0	S0	F	F	0	S	1	110	0	0	(empty)
+1791849601.100001	C_demo012	192.0.2.10	51012	198.51.100.20	91	tcp	-	0.01	70	0	S0	F	F	0	S	1	110	0	0	(empty)

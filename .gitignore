@@ -1,0 +1,16 @@
+venv/
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+
+Frontend/node_modules/
+Frontend/dist/
+
+.env
+rootnet.db
+uploads/
+rca_outputs/
+zeek-logs/
+*.pcap
+*.pcapng
