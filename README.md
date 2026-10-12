@@ -1,4 +1,4 @@
-# RootNet AI Enhanced — Zeek Live Monitor
+# RootNet AI — Zeek Live Monitor
 
 RootNet AI is an educational network-flow analysis dashboard. It combines a Flask API, a React frontend, SQLite history, CSV-based ML experiments, and an optional live reader for Zeek `conn.log` files.
 
